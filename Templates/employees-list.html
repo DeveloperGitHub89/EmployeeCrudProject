@@ -25,7 +25,8 @@
                <td>{{emp.salary}}</td>
                <td>{{emp.email}}</td> 
                <td>
-                <a href="#">delete</a> <a href="#">edit</a>
+                <a href="/delete/{{emp.id}}">delete</a> 
+                <a href="/edit/{{emp.id}}">edit</a>
                </td>
             </tr>
         {% endfor %}
